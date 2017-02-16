@@ -1,0 +1,377 @@
+/*雅虎工程师提供的CSS初始化示例代码*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555;/* font-size:14px;*/font-size: 62.5%; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+/*可以在html头文件中直接引用，从而避免浏览器的不兼容带来的错误。*/
+.clr {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+/*清除浮动*/
+#nav {
+    width: 100%;
+    height: 5em;
+    background-color: #3c404b;
+    overflow: hidden;
+}
+
+#nav .navcl {
+    width: 20%;
+    float: left;
+    margin: 0 0 0 3%;
+    text-align: center;
+}
+#nav .navcc {
+    width: 56%;
+    float: left;
+    text-align: center;
+}
+#nav .navcr {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+#nav .navcl h1 {
+    position: absolute;
+    text-indent:-9999em;
+    overflow: hidden;
+}
+#nav .navcl a {
+    line-height: 6em;
+}
+#nav .navcr a {
+    line-height: 6em;
+    margin: 0 2em 0 0;
+}
+#nav .navcc ul {
+    line-height: 5em;
+}
+#nav .navcc ul li {
+    display: inline;
+}
+#nav .navcc ul li a {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: "Microsoft YaHei", Arial sans-serif;
+    color: #fff;
+    padding: 1.7em 0.5em;
+    margin:0 1.5em;
+    text-decoration: none;
+}
+#nav .navcc ul li a:hover {
+    color: #00e284;
+    border-bottom: 2px solid #00e284;
+}
+/*nav end*/
+#banner{
+    width: 100%;
+    background: url("../images/banner.png") no-repeat;
+    background-size: 150%;
+    overflow: hidden;
+}
+#banner h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size:2.6em;
+    font-family: "Microsoft YaHei" Arial  sans-serif;
+    text-align: center;
+    margin: 7em 0 0 0;
+    letter-spacing: 0.1em;
+}
+#banner h6 {
+    color: #fff;
+    font-size:0.65em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+#banner .bannerlogo {
+    border-top:1px solid #fff;
+    border-bottom:1px solid #fff;
+    margin: 3em auto 0;
+    width:43em;
+    overflow: hidden;
+}
+#banner .bannerlogo h3 {
+    color: #fff;;
+    font-size: 3.15em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-align: center;
+    margin: 0.5em 0 0 0;
+    letter-spacing: 0.1em;
+}
+#banner h5 {
+    color: #fff;;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-align: center;
+    margin: 0 0 2em 0;
+    letter-spacing: 0.1em;
+}
+#banner .botton {
+    display: block;
+    width: 8em;
+    padding: 0.5em 1em;
+    color: #fff;
+    text-align: center;
+    margin: 8em auto 9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:2px solid #fff;
+}
+#banner .botton:hover {
+    background-color: #3c4d8c;
+    color: #fff;
+}
+#banner .bannerxl {
+    display: block;
+    text-align: center;
+    margin: 0 0 4em 0;
+}
+/*banner end*/
+#wui {
+    width: 100%;
+    position: relative;
+}
+#wui .wuione {
+    width: 33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #0dbd74;
+}
+#wui .wuione img {
+    display: block;
+    margin: 11.5em auto 0 auto;
+}
+#wui .wuione h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+}
+#wui .wuione hr {
+    width: 18em;
+}
+#wui .wuione p {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+#wui .wuisj {
+    position: absolute;
+    left: 33.333333333%;
+    top: 19em;
+    width: 0;
+    height: 0;
+    border:2em solid;
+    border-color: transparent transparent transparent #0dbd74;
+
+}
+#wui .wuitwo {
+    width: 33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #f0f0f0;
+}
+#wui .wuitwo img {
+    display: block;
+    margin: 10em auto 0 auto;
+}
+#wui .wuitwo p {
+    text-align: justify;
+    padding: 2.5em 4.5em 0;
+    line-height: 2em;
+    color: #969696;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+}
+#wui .wuithree {
+    width:33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #862ac9;
+}
+#wui .wuithree img {
+    display: block;
+    margin: 11.5em auto 0 auto;
+}
+#wui .wuithree h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+}
+#wui .wuithree hr {
+    width: 18em;
+}
+#wui .wuithree p {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+#wui .wuisjone {
+    position: absolute;
+    left: 83.333333316%;
+    top: 40em;
+    width: 0;
+    height: 0;
+    border:2em solid;
+    border-color: #862ac9 transparent transparent transparent;
+}
+#wui .wuifour {
+    width: 33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #f0f0f0;
+}
+#wui .wuifour img {
+    display: block;
+    margin: 10em auto 0 auto;
+}
+#wui .wuifour p {
+    text-align: justify;
+    padding: 2.5em 4.5em 0;
+    line-height: 2em;
+    color: #969696;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+}
+#wui .wuifive {
+    width: 33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #f0284e;
+}
+#wui .wuifive img {
+    display: block;
+    margin: 11.5em auto 0 auto;
+}
+#wui .wuifive h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    margin: 1em 0 0 0;
+}
+#wui .wuifive hr {
+    width: 18em;
+}
+#wui .wuifive p {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+#wui .wuisjfive {
+    position: absolute;
+    left: 29.8%;
+    top: 55em;
+    width: 0;
+    height: 0;
+    border:2em solid;
+    border-color: transparent #f0284e transparent transparent;
+}
+#wui .wuisix {
+    width:33.333333333%;
+    height: 40em;
+    float: left;
+    background-color: #f0f0f0;
+}
+#wui .wuisix img {
+    display: block;
+    margin: 10em auto 0 auto;
+}
+#wui .wuisix p {
+    text-align: justify;
+    padding: 2.5em 4.5em 0;
+    line-height: 2em;
+    color: #969696;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+}
+/*wui end*/
+#about {
+    width: 100%;
+    height: 40em;
+    background: url("../images/about.png") no-repeat;
+    background-size: 150%;
+    border-bottom:5px solid #fff;
+    overflow: hidden;
+}
+#about .abouttext {
+    width: 52em;
+    margin: 10em 0 0 10em;
+}
+#about .abouttext h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.14em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+}
+#about .abouttext p {
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin: 1em 0 0 0;
+}
+/*about end*/
+#footer {
+    width: 100%;
+    height: 6em;
+    background-color: #3c404b;
+    overflow: hidden;
+}
+#footer p a {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+
+}
+#footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-family: "Microsoft YaHei" Arial sans-serif;
+    margin:1em 0 0 0;
+}
+/*footer end*/
+
+
+/*css 部分有很多语法错误 还有很多写得不规范 还有代码不精简等等 以后会努力改正*/
